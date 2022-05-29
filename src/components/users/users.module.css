@@ -1,0 +1,42 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+button {
+    background-color: #02775a;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #005b44;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    background-color: #ee5d7f;
+    transform: scale(1, 1.11);
+}
+.count_table caption {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.count_table table {
+    width: 800px;
+    /* border-collapse: collapse; */
+    border: 2px solid rgb(100, 100, 100);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    box-shadow: 0 0 5px;
+}
+
+td,
+th {
+    border: 1px solid rgb(100, 100, 100);
+    padding: 10px;
+    font-size: 16px;
+}
+
+th {
+    background-color: #ee5d7f;
+}
