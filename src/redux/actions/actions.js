@@ -1,18 +1,5 @@
 import { types } from "../../types"
 
-
-export const changeTextAction = () => {
-    return {
-        type: types.CHANGE_TEXT,
-    }
-}
-
-export const clearTextAction = () => {
-    return {
-        type: types.CLEAR_TEXT,
-    }
-}
-
 export const usersAction = (users) => {
     return {
         type: types.USERS,
@@ -23,15 +10,6 @@ export const usersAction = (users) => {
 export const clearUserAction = () => {
     return {
         type: types.CLEAR_USERS
-    }
-}
-
-export const handleTextAction = () => {
-    return function (dispatch) {
-        dispatch(changeTextAction())
-        setTimeout(() => {
-            dispatch(clearTextAction())
-        }, 3000)
     }
 }
 
